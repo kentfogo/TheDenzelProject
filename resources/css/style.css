@@ -99,3 +99,25 @@ li.push#bio{
   color: white;
   font-size: 2em;
 }
+
+.box2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+
+}
+
+.quotes{
+  font-family: 'Bebas Neue';
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+}
+
+.stats{
+  font-family: 'Bebas Neue';
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+}
