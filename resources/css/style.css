@@ -135,16 +135,17 @@ li.push#bio{
 .follow{
   width: 100%;
   height: auto;
-  display: flex;
+  margin: 0 auto;
 }
 
 .movies{
   overflow: hidden;
  position: relative;
+ /*background-image: url("../images/DenzelMovies.jpg");*/
 }
 
-.moviebox{
-  opacity: 0.45;
+.moviebox {
+  opacity: 0.30;
   position: absolute;
   left: 0;
   top: 0;
@@ -163,6 +164,8 @@ li.push#bio{
 .follow-container{
   display: flex;
   justify-content: space-between;
+  position: relative;
+  bottom: 30px;
 }
 
 
@@ -187,4 +190,10 @@ li.push#bio{
 .social-media#text{
   height: 300px;
   width: 300px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  opacity: 0.9;
 }
