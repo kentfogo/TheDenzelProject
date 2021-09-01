@@ -110,14 +110,81 @@ li.push#bio{
 
 .quotes{
   font-family: 'Bebas Neue';
+  font-size: 35px;
   color: #fff;
   display: flex;
   flex-flow: column;
+  width: 50%;
+  height: auto;
+  position: relative;
+  text-align: center;
 }
 
 .stats{
   font-family: 'Bebas Neue';
+  font-size: 27px;
   color: #fff;
   display: flex;
   flex-flow: column;
+  width: 50%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.follow{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.movies{
+  overflow: hidden;
+ position: relative;
+}
+
+.moviebox{
+  opacity: 0.45;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.follow h1{
+  font-family: 'Bebas Neue';
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  opacity: 0.9;
+}
+
+.follow-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.social-media{
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
+
+.social-media svg{
+  display: block;
+ height: 150px;
+ margin: 50px auto
+}
+
+.social-media img{
+  display: block;
+ height: 150px;
+ margin: 50px auto
+}
+
+.social-media#text{
+  height: 300px;
+  width: 300px;
 }
