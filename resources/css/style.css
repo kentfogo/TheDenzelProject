@@ -40,7 +40,7 @@ header{
 }
 
 
-.menu{
+.header-menu{
   font-weight: bold;
   color: white;
   text-decoration: none;
@@ -52,7 +52,7 @@ header{
 }
 
 
-ul.menu li{
+ul.header-menu li{
   display: inline-flex;
   letter-spacing: .5em;
 }
@@ -62,7 +62,7 @@ li.person {
   opacity: .99;
 }
 
-ul.menu a{
+ul.headder-menu a{
   display: block;
   color: #fff;
   text-decoration: none;
@@ -136,6 +136,8 @@ li.push#bio{
   width: 100%;
   height: auto;
   margin: 0 auto;
+  position: relative;
+  bottom:150px;
 }
 
 .movies{
@@ -151,6 +153,7 @@ li.push#bio{
   top: 0;
   width: 100%;
   height: auto;
+
 }
 
 .follow h1{
@@ -159,6 +162,7 @@ li.push#bio{
   text-align: center;
   font-size: 45px;
   opacity: 0.9;
+  letter-spacing: .15em;
 }
 
 .follow-container{
@@ -196,4 +200,53 @@ li.push#bio{
   font-size: 2em;
   color: #fff;
   opacity: 0.9;
+}
+
+footer{
+  width: 100%;
+  height: 75px;
+  /*z-index: -100;*/
+  left: 0;
+  bottom: 0;
+  background: black;
+  border-top: 2px solid gray;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottom-footer{
+  width: 100%;
+  display:flex;
+  flex-flow: row;
+  position:relative;
+  top: 15px;
+}
+
+.footer-col{
+  height: auto;
+  width: 1000px;
+}
+
+.footer-menu{
+  position: relative;
+}
+
+.footer-menu ul li{
+  display: inline-flex;
+  font-size: 10px;
+  letter-spacing: .5em;
+}
+
+/*.footer-col{
+  width: auto;
+  height: auto;
+  display: inline-flex;
+
+}
+
+.menu ul li{
+  list-style: none;
+    float: left;
+    width: 33%;
+    text-align: center;
 }
