@@ -17,6 +17,7 @@ header{
 .imgbox{
   overflow: hidden;
  position: relative;
+ height:730px;
 }
 
 .ibox{
@@ -28,7 +29,7 @@ header{
   height: auto;
 }
 
-.wrapper, a{
+.wrapper, #list{
   width: 100%;
   height: 30px;
   position: relative;
@@ -62,13 +63,14 @@ li.person {
   opacity: .99;
 }
 
-ul.headder-menu a{
+ul.header-menu a{
   display: block;
   color: #fff;
   text-decoration: none;
   margin: 20px 40px 0 0;
   font-size: 1.4em;
   letter-spacing: .25em;
+  opacity: .99;
 }
 
 li.push{
@@ -101,10 +103,12 @@ li.push#bio{
 }
 
 .box2{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-flow: row;
+max-width: 1259px;
+height: 400px;
+display: flex;
+flex-flow: row;
+margin-bottom: 175px;
+position: relative;
 
 }
 
@@ -203,37 +207,34 @@ li.push#bio{
 }
 
 footer{
-  width: 100%;
-  height: 75px;
-  /*z-index: -100;*/
-  left: 0;
-  bottom: 0;
-  background: black;
-  border-top: 2px solid gray;
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 25px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+
 }
 
 .bottom-footer{
-  width: 100%;
-  display:flex;
-  flex-flow: row;
-  position:relative;
-  top: 15px;
+  display: flex;
+  align-items:center;
 }
 
 .footer-col{
   height: auto;
   width: 1000px;
+  font-family: 'Roboto';
 }
 
 .footer-menu{
   position: relative;
 }
 
+.footer-menu ul{
+  width:400px;
+}
 .footer-menu ul li{
   display: inline-flex;
-  font-size: 10px;
   letter-spacing: .5em;
 }
 
