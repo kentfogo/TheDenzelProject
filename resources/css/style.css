@@ -1,10 +1,7 @@
 
-html{
-
-}
-
-body{
+html,body{
   background-color: black;
+  min-height: 100%
 }
 
 header{
@@ -15,7 +12,7 @@ header{
 }
 
 .imgbox{
-  overflow: hidden;
+overflow: hidden;
  position: relative;
  height:730px;
 }
@@ -206,25 +203,48 @@ position: relative;
   opacity: 0.9;
 }
 
+
 .bottom-footer{
   background-color: #26272b;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
   color: #fff;
+  margin: auto;
+  height: auto;
+  width:100%;
 }
 
 .footer-container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  display: inline-flex;
+  margin-left: auto;
+
+}
+
+.footer-row{
   display:flex;
+  /*flex-wrap: wrap;*/
+  margin-right: 15px;
+  margin-left: 15px;
 
 }
 
-.footer-column{
-  width: 50%;
-  height:auto;
+.col{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.footer-column#quick, h6, li{
+
+
+
+/*.footer-column#quick, h6, li{
   font-family:'Roboto';
   list-style-type: none;
   margin: 0;
@@ -246,15 +266,12 @@ ul.footer-links li,a{
   width: 300px;
   height: 300px;
   margin: 0 auto;
-}
+}*/
 
 .footer-copy{
-
-}
-
-.bottom-footer hr{
-  border-top-color: #bbb;
-  opacity: .5;
+  text-align: center;
+  border-top: 1px solid gray;
+  color: #fff;
 }
 
 .bottom-footer h6{
