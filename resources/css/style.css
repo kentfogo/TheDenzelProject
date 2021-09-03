@@ -241,6 +241,10 @@ position: relative;
   padding-left: 15px;
 }
 
+.vl{
+  border-left: 1px solid #fff;
+}
+
 
 
 
