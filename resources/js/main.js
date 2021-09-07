@@ -1,6 +1,6 @@
 
 
-var slides = document.querySelectorAll('#slides .slide');
+var slides = document.querySelectorAll('.slide');
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide, 5000);
 
@@ -10,4 +10,4 @@ function nextSlide() {
   slides[currentSlide].className = 'slide showing';
 }
 
-textFit(document.querySelector("h1"));
+// textFit(document.querySelector("h1"));
