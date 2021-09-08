@@ -24,7 +24,7 @@ header{
   opacity: 0.6;
   position: absolute;
   left: 0;
-  top: 4rem;
+  top: 40px;
   width: 100%;
   height: auto;
 }
@@ -46,6 +46,7 @@ header{
 a.home-link {
 	text-decoration: none;
 	color: hsla(0, 100%, 100%, 1);
+  padding-left: 40px;
 }
 
 a.home-link:hover {
