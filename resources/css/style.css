@@ -16,6 +16,8 @@ header{
 	overflow: hidden;
 	position: relative;
 	height:730px;
+  padding-bottom: 40px;
+
 }
 
 .ibox{
@@ -140,7 +142,7 @@ li.push > span {
   list-style-type: none;
   /*transition: opacity 1s;*/
   transition: 0.25s all ease-in-out;
-  width: 50%;
+  width: 75%;
 }
 
 .slide{
@@ -152,7 +154,7 @@ li.push > span {
   opacity: 0;
   z-index: 1;
   color: #fff;
-  font-size: 3.3vmin;
+  font-size: 3.7vmin;
   box-sizing: border-box;
   padding: 0px 40px;
   font-family: 'Bebas Neue';
@@ -175,7 +177,7 @@ h1.long {
   color: #fff;
   display: flex;
   flex-flow: column;
-  width: 50%;
+  width: 25%;
   height: auto;
   position: relative;
   text-align: center;
