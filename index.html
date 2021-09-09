@@ -131,7 +131,7 @@ style="fill:#3BA9EE;"/>
     <div class = 'footer-row'>
       <div class = "col" id= "name">
         <h3>KentFogo</h3>
-        
+
       </div>
       <div class = "vl">
       </div>
@@ -147,8 +147,24 @@ style="fill:#3BA9EE;"/>
           <ul><a href=#>Yeah</a></ul>
         </div>
         <div class = "col" id= "Contact">
-          <h3>Talk with Us!</h3>
-          <p>This is a website about the force of nature that is Denzel Washington.</p>
+          <form action = "action_page.php">
+          <!--<h3>Talk with Us!</h3>
+          <p>This is a website about the force of nature that is Denzel Washington.</p>-->
+
+          <label for "fname">First Name</label>
+          <input type="text" id = "fname" name = "firstname" placeholder="Your name..">
+          <br>
+          <label for "fname">Last Name</label>
+          <input type="text" id = "lname" name = "lastname" placeholder="Your last name..">
+
+          <label for ="subject">Subject</label>
+          <textarea id = "subject" name= "subject" placeholder= "Write something.."
+          style = "height: 50px"></textarea>
+
+          <input type = "submit" value = "Submit">
+        </form>
+
+
         </div>
   </div>
 </div>
