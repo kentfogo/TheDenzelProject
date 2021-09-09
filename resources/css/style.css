@@ -38,7 +38,7 @@ header{
   font-size: 2rem;
   letter-spacing: .25em;
   /* margin: 1rem 0 1rem 1rem; */
-	z-index: 1;
+	z-index: 80;
 }
 .wrapper > a:hover {
 	transform: scale(1.1);
@@ -217,7 +217,7 @@ h1.long {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%,rgba(0, 0, 0, 0) 70%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%,rgba(0, 0, 0, 1) 70%);
   height: 100%;
   }
 
