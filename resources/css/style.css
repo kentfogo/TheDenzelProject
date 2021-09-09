@@ -287,7 +287,6 @@ h1.long {
 
 
 .bottom-footer{
-  background-color: #26272b;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
@@ -295,7 +294,11 @@ h1.long {
   margin: auto;
   height: auto;
   width:100%;
+  opacity: .8;
 }
+
+
+
 
 .footer-container{
   width: 100%;
@@ -304,7 +307,12 @@ h1.long {
   margin-right: auto;
   display: inline-flex;
   margin-left: auto;
+  opacity: .75;
+  /*background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%);*/
+}
 
+.footer-container:hover{
+  opacity:1;
 }
 
 .footer-row{
@@ -351,6 +359,10 @@ h1.long {
   padding: 0;
 }
 
+.col#contact{
+  font-family: 'Roboto';
+}
+
 .col#contact input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
@@ -377,8 +389,7 @@ input[type=submit]:hover {
 
 .col#contact{
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+
 }
 
 .vl{
