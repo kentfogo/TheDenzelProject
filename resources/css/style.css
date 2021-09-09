@@ -187,7 +187,7 @@ h1.long {
 .stats{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 24px;
   color: #fff;
   display: flex;
   flex-flow: column;
@@ -195,6 +195,10 @@ h1.long {
   height: auto;
   position: relative;
   text-align: center;
+}
+
+.stats-border{
+  border-bottom: 1px solid white;
 }
 
 .follow{
