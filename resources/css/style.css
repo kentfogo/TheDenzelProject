@@ -60,7 +60,7 @@ a.home-link:hover {
   color: white;
   text-decoration: none;
   font-family:'Bebas Neue';
-  /*background-image: url("../images/DenzelSitting.jpg");*/
+  background-image: url("../images/DenzelSitting.jpg");
   width: 100%;
   height: 900px;
   margin: 100px 0;
