@@ -130,8 +130,45 @@ section h1{
   user-select: none;
 }
 
+.bio-container {
+  /*display: flex;
+  height: 100vh;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-x: auto;*/
+  padding: 100px 0;
+}
+
+.sticky{
+  width: 100%;
+  overflow: hidden;
+  position: sticky;
+  overflow: hidden;
+}
+
+.card-wrapper{
+  position: relative;
+  display:flex;
+}
+
+.card{
+  margin: 0 3vw;
+  width: 25vw;
+  flex-shrink: 0;
+  padding: 2vw;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 3px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  box-shadow: 4px 4px 0 rgba(0,0,0,.1);
+  margin-right: 2px;
+}
+
 section#home h1{
-  
+
 }
 
 section:nth-child(2){
