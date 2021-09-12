@@ -15,8 +15,8 @@ margin: 0;
 overflow: hidden;
 display: flex;
 flex-direction: column;
-line-height; 1.5;
-font-family: "Bebas-Neue";
+line-height: 1.5;
+font-family: "Bebas Neue";
 font-size: 62.5%;
 color: #f4f4f4;
 background-color: #1d1e22;
@@ -44,13 +44,11 @@ background-color: #1d1e22;
 
 .smooth{
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 100%;;
   scroll-behavior: smooth;
   overflow-y: scroll;
-  scroll-snap-points-y:repeat(100vh);
   scroll-snap-type: y mandatory;
-  scroll-snap-type: mandatory;
+  max-height: 100vh;
 }
 
 header{
@@ -97,11 +95,15 @@ section{
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 6vw;
   background-color: #f4f4f4;
-  background-image: url("./images/DenzelSitting.jpg");
+  background-image: url("../images/DenzelSitting.jpg");
   background-size: cover;
   scroll-snap-align: center;
+
+  border-bottom: 10px solid white;
+  color: white;
+
 }
 
 section h2{
@@ -116,14 +118,33 @@ section h2{
   user-select: none;
 }
 
+section h1{
+  font-size: 2.25rem;
+  font-weight: 900;
+  padding: .5em 1em;
+  color: #1d1e22;
+  background-color: #f4f4f4;
+  mix-blend-mode: screen;
+  border-radius: 0.25em;
+  pointer-events: none;
+  user-select: none;
+}
+
+section#home h1{
+  
+}
+
 section:nth-child(2){
-  background-image: url("resources/images/DenzelTraining.jpg")
+  background-image: url("../images/199201.jpg")
 }
 
 section:nth-child(3){
-  background-image: url("../images/DenzelTux.jpg")
+  background-image: url("../images/Denzel-leather.jpg")
 }
 
+section:last-child{
+  border: none;
+}
 
 
 /*
