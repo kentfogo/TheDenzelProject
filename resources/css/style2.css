@@ -150,11 +150,11 @@ section h1{
   transform-origin: right top;
 }
 
-.card{
+.squares{
   padding: 60px 0 0 0;
 }
 
-.card > div{
+.squares > div{
   width: 60px;
   height: 60px;
   margin: 10px;
