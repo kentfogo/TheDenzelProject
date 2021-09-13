@@ -16,7 +16,6 @@ var horizontalLength = document.querySelector(".card-wrapper").scrollWidth;
 var distFromTop = document.querySelector(".bio-container").offsetTop;
 var scrollDistance = distFromTop + horizontalLength - windowWidth;
 
-console.log(scrollDistance);
 
 document.querySelector(".bio-container").style.height = horizontalLength + "px";
 
@@ -27,5 +26,4 @@ if(scrollTop >= distFromTop && scrollTop <= scrollDistance){
   document.querySelector(".card-wrapper").style.transform = "translateX(-" +(scrollTop - distFromTop) + "px)";
 }
 
-  console.log(scrollTop)
 }
