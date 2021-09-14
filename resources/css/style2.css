@@ -139,10 +139,18 @@ section h1{
   width: 100%;
   height: 100%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: .8;
 }
 
 .card:after{
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card:hover{
+  opacity: 1;
+  transition: opacity .25s ease-in;
+  width: 140%;
+  transition: width .25s ease-in;
 }
 
 .card img{
