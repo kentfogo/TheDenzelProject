@@ -185,7 +185,7 @@ flex: 1;
 }
 
 
-/*.card-text{
+.card-text{
   position: relative;
   font-family: 'Lato';
   font-weight: 300;
@@ -196,7 +196,7 @@ flex: 1;
   mix-blend-mode: luminosity;
   z-index: 10;
   flex: 1;
-}*/
+}
 
 
 
