@@ -126,39 +126,35 @@ section h1{
   user-select: none;
 }
 
-.container{
+.bio-container{
   box-sizing: border-box;
   position:absolute;
-  display:block;
-  top:0;
-  left:0;
-  width:80px;
-  max-height:500px;
-  margin:0;
-  background:#abc;
-  overflow-y:auto;
-  overflow-x:hidden;
-  transform:rotate(-90deg) translateY(-80px);
-  transform-origin:right top;
+  display:flex;
+  height: 100%;
+
 }
 
-.container > div{
-  display:block;
-  padding:5px;
-  background:#cab;
-  transform:rotate(90deg);
-  transform-origin: right top;
+.card{
+  border:3px solid white;
+  width: 100%;
+  height: 100%;
 }
 
-.squares{
-  padding: 60px 0 0 0;
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.squares > div{
-  width: 60px;
-  height: 60px;
-  margin: 10px;
+.card-text{
+  position: relative;
+  font-family: 'Roboto';
+  color: white;
+  width: 100%;
+  margin-top: -40%;
 }
+
+
 
 /*.bio-container {
   /*display: flex;
