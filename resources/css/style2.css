@@ -221,8 +221,24 @@ flex: 1;
 .pop{
   width: 100vw;
   height: 100vh;
+  scroll-snap-align: end;
 }
 
+.pop p{
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.pop ul li{
+  font-family: 'Roboto';
+  font-size: 17px;
+
+}
+
+.pop h2{
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
 .inner{
   display: flex;
   flex-direction: row;
@@ -232,7 +248,7 @@ flex: 1;
 }
 
 .one{
-  background: green;
+  background: black;
 }
 
 .two{
@@ -255,6 +271,7 @@ flex: 1;
   overflow-x: hidden;
   position: absolute;
   scrollbar-width: none;
+
 }
 
 ::webkit-scrollbar{
