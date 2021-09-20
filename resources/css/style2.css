@@ -222,6 +222,7 @@ flex: 1;
   width: 100vw;
   height: 100vh;
   scroll-snap-align: end;
+
 }
 
 .pop p{
@@ -235,10 +236,20 @@ flex: 1;
 
 }
 
+.pop-container{
+  display: flex;
+  width: 100vw;
+}
+
+.pop-img-container{
+  width: 50vw;
+}
+
 .pop h2{
   font-family: 'Bebas Neue';
   text-align: center;
 }
+
 .inner{
   display: flex;
   flex-direction: row;
